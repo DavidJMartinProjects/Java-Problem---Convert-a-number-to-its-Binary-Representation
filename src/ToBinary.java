@@ -5,7 +5,7 @@ public class ToBinary {
 	Scanner myScanner = new Scanner(System.in); // create a Scanner object
 	String input = "";
 
-	public int getInput() { // get number from user via command prompt
+	public int getInput() { // prompt the User to enter a Positive Decimal Number
 		System.out.println("Input a Positive Decimal number to convert to Base 2: ");
 		input = myScanner.nextLine();
 		int num = Integer.parseInt(input);
