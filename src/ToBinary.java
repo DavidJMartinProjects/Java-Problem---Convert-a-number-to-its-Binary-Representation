@@ -6,7 +6,7 @@ public class ToBinary {
 	String input = "";
 
 	public int getInput() { // get number from user via command prompt
-		System.out.println("Input number to convert : ");
+		System.out.println("Input a Positive Decimal number to convert to Base 2: ");
 		input = myScanner.nextLine();
 		int num = Integer.parseInt(input);
 		return num; // return entered number
@@ -25,7 +25,7 @@ public class ToBinary {
 		} else { // the number entered is 1
 			remainder.append(1); // append 1 to result
 		}
-		System.out.println(remainder.reverse()); // reverse the order of the modulus calculations
+		System.out.println(remainder.reverse()); // reverse the order of the modulus calculations using the reverse() method from the StringBuffer class
 
 	}
 
